@@ -31,11 +31,15 @@ generateJson = client.chat.completions.create(
     messages=[
         {
             "role": "system",
-            "content": "you extract email addresses into JSON data"
+            "content": "you extract email addresses into JSON data as array"
         },
         {
             "role": "user",
             "content": "Felling stuck? Send a message to help@mycompany.com."
+        },
+        {
+            "role": "user",
+            "content": "For pricing inquries please contact sales@mycompany.com."
         }
     ],
     response_format={

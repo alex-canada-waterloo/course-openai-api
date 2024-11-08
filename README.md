@@ -6,7 +6,7 @@ Walk through OpenAI documentation at https://platform.openai.com/docs/introducti
 brew install python3
 python3 -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
+pip install --upgrade -r requirements.txt
 ```
 
 
